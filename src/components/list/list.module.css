@@ -1,0 +1,29 @@
+.cards{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    padding: 15px;
+    margin: 7px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 2px 2px 2px #c7c7c7;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+}
+
+.listItem input {
+    width: 20px;
+    margin-right: 5px;
+}
